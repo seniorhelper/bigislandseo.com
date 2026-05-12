@@ -1284,7 +1284,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
 
 <!-- ================= HERO ================= -->
 <section class="hero" id="top">
-  <video class="hero-video" autoplay muted loop playsinline poster="images/big-island-seo.jpg" aria-hidden="true">
+  <video class="hero-video" autoplay muted playsinline preload="auto" poster="images/big-island-seo.jpg" aria-hidden="true">
     <source src="images/big-island-seo-hero-video%20(1).mp4" type="video/mp4">
   </video>
   <div class="hero-overlay"></div>
@@ -2388,6 +2388,19 @@ if (video) {
   // Some mobile browsers block autoplay; ensure muted
   video.muted = true;
   video.play().catch(() => {/* user gesture required, fine */});
+
+  // Seamless loop: restart slightly before the end to avoid the blank end-frame flash
+  video.addEventListener('timeupdate', () => {
+    if (!isNaN(video.duration) && video.duration > 0 && video.currentTime >= video.duration - 0.15) {
+      video.currentTime = 0;
+      video.play().catch(() => {});
+    }
+  });
+  // Safety net in case timeupdate misses the window
+  video.addEventListener('ended', () => {
+    video.currentTime = 0;
+    video.play().catch(() => {});
+  });
 }
 </script>
 
