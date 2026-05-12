@@ -202,7 +202,12 @@ button{font-family:inherit;cursor:pointer;border:0;background:none}
   width:100%;height:100%;
   object-fit:cover;
   z-index:1;
+  transition:opacity .6s ease-in-out;
 }
+.hero-video-a{opacity:1;z-index:2}
+.hero-video-b{opacity:0;z-index:1}
+.hero-video.is-active{opacity:1;z-index:2}
+.hero-video.is-inactive{opacity:0;z-index:1}
 .hero-overlay{
   position:absolute;inset:0;
   background:linear-gradient(135deg,rgba(0,13,20,.78) 0%,rgba(0,27,41,.6) 40%,rgba(0,168,150,.35) 100%);
@@ -1284,7 +1289,10 @@ h2.section-h .lagoon{color:var(--lagoon)}
 
 <!-- ================= HERO ================= -->
 <section class="hero" id="top">
-  <video class="hero-video" autoplay muted playsinline preload="auto" poster="images/big-island-seo.jpg" aria-hidden="true">
+  <video class="hero-video hero-video-a" autoplay muted playsinline preload="auto" poster="images/big-island-seo.jpg" aria-hidden="true">
+    <source src="images/big-island-seo-hero-video%20(1).mp4" type="video/mp4">
+  </video>
+  <video class="hero-video hero-video-b" muted playsinline preload="auto" poster="images/big-island-seo.jpg" aria-hidden="true">
     <source src="images/big-island-seo-hero-video%20(1).mp4" type="video/mp4">
   </video>
   <div class="hero-overlay"></div>
@@ -2140,6 +2148,11 @@ h2.section-h .lagoon{color:var(--lagoon)}
     <div class="footer-bottom">
       <div>&copy; 2026 Big Island SEO &middot; A property of <a href="https://www.eyetoad.com" target="_blank" rel="noopener">Eye To Ad Media</a> &middot; Established 2012</div>
       <div>Hawaii SEO &middot; Hawaii Advertising Agency &middot; All Islands Served</div>
+      <div style="margin-top:10px;font-size:.82rem">
+        <a href="/sitemap.html">Sitemap</a> &middot;
+        <a href="/sitemap.xml">XML Sitemap</a> &middot;
+        <a href="/robots.txt">Robots.txt</a>
+      </div>
     </div>
   </div>
 </footer>
@@ -2379,29 +2392,72 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
-// ============= Hero video fallback =============
-const video = document.querySelector('.hero-video');
-if (video) {
-  video.addEventListener('error', () => {
-    video.style.display = 'none';
-  });
-  // Some mobile browsers block autoplay; ensure muted
-  video.muted = true;
-  video.play().catch(() => {/* user gesture required, fine */});
+// ============= Hero video crossfade loop (no black flash) =============
+(function(){
+  const vA = document.querySelector('.hero-video-a');
+  const vB = document.querySelector('.hero-video-b');
+  if (!vA || !vB) return;
 
-  // Seamless loop: restart slightly before the end to avoid the blank end-frame flash
-  video.addEventListener('timeupdate', () => {
-    if (!isNaN(video.duration) && video.duration > 0 && video.currentTime >= video.duration - 0.15) {
-      video.currentTime = 0;
-      video.play().catch(() => {});
+  // Error fallback — hide both if video fails
+  [vA, vB].forEach(v => {
+    v.addEventListener('error', () => { v.style.display = 'none'; });
+    v.muted = true;
+  });
+
+  // Crossfade window: start fading to the other video this many seconds before end
+  const FADE_LEAD = 0.7;
+
+  let active = vA;       // currently visible/playing
+  let queued = vB;       // hidden, paused at 0, ready
+  let swapping = false;  // guard against double-fires
+
+  function startActive(v){
+    v.classList.add('is-active');
+    v.classList.remove('is-inactive');
+    v.currentTime = 0;
+    const p = v.play();
+    if (p && p.catch) p.catch(()=>{});
+  }
+  function prepQueued(v){
+    v.classList.add('is-inactive');
+    v.classList.remove('is-active');
+    try { v.pause(); } catch(e){}
+    try { v.currentTime = 0; } catch(e){}
+  }
+
+  // Initial state
+  startActive(vA);
+  prepQueued(vB);
+
+  function loop(){
+    if (!swapping && !isNaN(active.duration) && active.duration > 0) {
+      const remaining = active.duration - active.currentTime;
+      if (remaining <= FADE_LEAD && remaining >= 0) {
+        swapping = true;
+        // Begin playing the queued video from 0 underneath
+        queued.currentTime = 0;
+        const p = queued.play();
+        if (p && p.catch) p.catch(()=>{});
+        // Trigger CSS crossfade
+        queued.classList.remove('is-inactive');
+        queued.classList.add('is-active');
+        active.classList.remove('is-active');
+        active.classList.add('is-inactive');
+        // After fade completes, swap roles and reset old active
+        setTimeout(() => {
+          const oldActive = active;
+          active = queued;
+          queued = oldActive;
+          try { queued.pause(); } catch(e){}
+          try { queued.currentTime = 0; } catch(e){}
+          swapping = false;
+        }, 650);
+      }
     }
-  });
-  // Safety net in case timeupdate misses the window
-  video.addEventListener('ended', () => {
-    video.currentTime = 0;
-    video.play().catch(() => {});
-  });
-}
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+})();
 </script>
 
 </body>
