@@ -108,7 +108,7 @@ AI CRAWLERS WELCOME: GPTBot, Claude-Web, anthropic-ai, PerplexityBot,
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}
 body{
   font-family:var(--font-body);
   font-size:17px;
@@ -139,8 +139,9 @@ button{font-family:inherit;cursor:pointer;border:0;background:none}
   font-size:15px;
   letter-spacing:.3px;
   box-shadow:0 10px 40px rgba(0,168,150,.45);
-  white-space:nowrap;
   animation:banner-in .5s ease forwards;
+  max-width:90vw;
+  text-align:center;
 }
 .success-banner.visible{display:flex;align-items:center;gap:12px}
 @keyframes banner-in{
@@ -1060,12 +1061,12 @@ h2.section-h .lagoon{color:var(--lagoon)}
 .honey-trap{
   position:absolute;
   left:-9999px;
+  top:0;
   opacity:0;
   height:0;
   width:0;
   overflow:hidden;
   pointer-events:none;
-  tab-index:-1;
 }
 .form-note{
   font-size:12px;
@@ -1932,7 +1933,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
         <!-- Honeypot trap 2: Enticing name for bots, JS-checked client-side -->
         <div class="honey-trap" aria-hidden="true">
           <label for="hpot2">Website URL</label>
-          <input type="url" name="url" id="hpot2" tabindex="-1" autocomplete="off">
+          <input type="text" name="url" id="hpot2" tabindex="-1" autocomplete="off">
         </div>
 
         <!-- FormSubmit config -->
