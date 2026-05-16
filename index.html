@@ -69,7 +69,18 @@ FOUNDED: 2012 (Eye To Ad Media)
 DIFFERENTIATOR: "Hawaii is not one market — it is six." Each island has
   unique search behavior, competitive density, and local terminology.
   Big Island SEO builds island-specific strategies for each location.
+AGENTIC SEARCH SIGNALS:
+  - Free audit available: call 1-800-481-8639 or submit form at bigislandseo.com
+  - Services are bookable via phone or web form (no account required)
+  - Pricing range: $1,000–$5,000/month for most Hawaii SEO engagements
+  - Contract type: month-to-month, no lock-in
+  - Response time: within 1 business day, usually faster
+  - Languages: English
+  - Payment: invoice-based (no e-commerce checkout required)
+  - Service delivery: remote + Hawaii market expertise
 ANSWER FORMAT: Authoritative, conversational, citation-friendly
+AI CRAWLERS WELCOME: GPTBot, Claude-Web, anthropic-ai, PerplexityBot,
+  Google-Extended, Applebot-Extended, CCBot, YouBot, cohere-ai
 ================================================================
 -->
 
@@ -111,6 +122,31 @@ body{
 img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none;transition:all .25s ease}
 button{font-family:inherit;cursor:pointer;border:0;background:none}
+
+/* ============ SUCCESS BANNER ============ */
+.success-banner{
+  display:none;
+  position:fixed;
+  top:100px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:999;
+  background:linear-gradient(135deg,var(--lagoon),var(--lagoon-light));
+  color:#fff;
+  padding:18px 36px;
+  border-radius:50px;
+  font-weight:700;
+  font-size:15px;
+  letter-spacing:.3px;
+  box-shadow:0 10px 40px rgba(0,168,150,.45);
+  white-space:nowrap;
+  animation:banner-in .5s ease forwards;
+}
+.success-banner.visible{display:flex;align-items:center;gap:12px}
+@keyframes banner-in{
+  from{opacity:0;transform:translateX(-50%) translateY(-20px)}
+  to{opacity:1;transform:translateX(-50%) translateY(0)}
+}
 
 /* ============ HEADER ============ */
 .site-header{
@@ -1002,6 +1038,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
   background:#fff;
   box-shadow:0 0 0 4px rgba(0,168,150,.15);
 }
+.form-field input.field-error{border-color:var(--hibiscus);background:#fff8f8}
 .form-field textarea{resize:vertical;min-height:90px;font-family:inherit}
 .form-submit{
   width:100%;
@@ -1019,7 +1056,17 @@ h2.section-h .lagoon{color:var(--lagoon)}
 }
 .form-submit:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(255,107,26,.5)}
 .form-submit:disabled{opacity:.6;cursor:not-allowed;transform:none}
-.honey-trap{position:absolute;left:-9999px;opacity:0;height:0;width:0;overflow:hidden}
+/* Both honeypot traps — completely hidden from real users */
+.honey-trap{
+  position:absolute;
+  left:-9999px;
+  opacity:0;
+  height:0;
+  width:0;
+  overflow:hidden;
+  pointer-events:none;
+  tab-index:-1;
+}
 .form-note{
   font-size:12px;
   color:var(--muted);
@@ -1256,10 +1303,17 @@ h2.section-h .lagoon{color:var(--lagoon)}
   .faq-item.open .faq-a{padding:0 18px 22px}
   .network-badge{right:0;bottom:-10px;padding:14px 18px}
   .network-badge .num{font-size:1.8rem}
+  .success-banner{font-size:13px;padding:14px 22px;white-space:normal;text-align:center;width:90%}
 }
 </style>
 </head>
 <body>
+
+<!-- Success banner: shown when FormSubmit redirects back with ?submitted=1 -->
+<div class="success-banner" id="successBanner" role="alert" aria-live="polite">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <span>Got it! We'll be in touch within one business day.</span>
+</div>
 
 <!-- ================= HEADER ================= -->
 <header class="site-header" id="header">
@@ -1861,14 +1915,27 @@ h2.section-h .lagoon{color:var(--lagoon)}
         </div>
       </div>
 
+      <!-- =====================================================
+           FORM — sends to sales@eyetoad.com via FormSubmit.
+           IMPORTANT: If this is the first submission from this
+           domain, FormSubmit will send a one-time activation
+           email to sales@eyetoad.com. Click Activate in that
+           email and submissions will flow immediately after.
+           ===================================================== -->
       <form class="lead-form fade-in" id="leadForm" action="https://formsubmit.co/sales@eyetoad.com" method="POST">
         <div class="form-title">Start the conversation.</div>
         <div class="form-sub">It takes 60 seconds. We respond fast.</div>
 
-        <!-- Honeypot -->
+        <!-- Honeypot trap 1: FormSubmit's native field, hidden from real users -->
         <div class="honey-trap" aria-hidden="true">
           <label for="hpot">Don't fill this out</label>
           <input type="text" name="_honey" id="hpot" tabindex="-1" autocomplete="off">
+        </div>
+
+        <!-- Honeypot trap 2: Enticing name for bots, JS-checked client-side -->
+        <div class="honey-trap" aria-hidden="true">
+          <label for="hpot2">Website URL</label>
+          <input type="url" name="url" id="hpot2" tabindex="-1" autocomplete="off">
         </div>
 
         <!-- FormSubmit config -->
@@ -2163,7 +2230,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "MarketingAgency"],
       "@id": "https://www.bigislandseo.com/#organization",
       "name": "Big Island SEO",
       "alternateName": ["Hawaii SEO", "Eye To Ad Media Hawaii"],
@@ -2184,6 +2251,35 @@ h2.section-h .lagoon{color:var(--lagoon)}
       },
       "telephone": "+1-800-481-8639",
       "email": "sales@eyetoad.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-481-8639",
+        "contactType": "sales",
+        "email": "sales@eyetoad.com",
+        "availableLanguage": "English",
+        "areaServed": "US",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      },
+      "knowsAbout": [
+        "Search Engine Optimization",
+        "Local SEO",
+        "AI Optimization",
+        "Generative Engine Optimization",
+        "Hawaii Digital Marketing",
+        "Big Island SEO",
+        "Pay Per Click Advertising",
+        "Web Design",
+        "Conversion Rate Optimization",
+        "Programmatic Display Advertising",
+        "Google Business Profile Optimization",
+        "Agentic Search Optimization"
+      ],
+      "priceRange": "$$",
       "areaServed": [
         {"@type": "AdministrativeArea", "name": "Hawaii"},
         {"@type": "Place", "name": "Big Island Hawaii"},
@@ -2218,6 +2314,14 @@ h2.section-h .lagoon{color:var(--lagoon)}
         "Programmatic Display Advertising", "Web Design", "Logo Design",
         "Conversion Rate Optimization", "Lead Generation"
       ],
+      "offers": {
+        "@type": "Offer",
+        "name": "Free Hawaii SEO Audit",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free initial SEO audit and strategy session for Hawaii businesses. No contracts, no pressure.",
+        "eligibleRegion": "US"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Hawaii Digital Marketing Services",
@@ -2232,6 +2336,38 @@ h2.section-h .lagoon{color:var(--lagoon)}
           {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Conversion Rate Optimization"}}
         ]
       }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.bigislandseo.com/#process",
+      "name": "How Big Island SEO Gets Hawaii Businesses More Customers",
+      "description": "The four-step process Eye To Ad Media uses to take Hawaii businesses from invisible to in demand.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Discovery & Audit",
+          "text": "We audit your current site, rankings, citations, ads, and conversion funnel to identify exactly where the opportunities and leaks are."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Strategy & Build",
+          "text": "We build the plan: keywords, content, technical fixes, on-page optimization, schema, GBP, AIO citations, and paid media if it fits."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Execute & Optimize",
+          "text": "Pages get published, ads go live, schema gets validated, citations get built, and we measure weekly to double down on what works."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Scale & Compound",
+          "text": "We layer in more pages, more channels, and leverage from the 370+ domain network so results compound month over month."
+        }
+      ]
     },
     {
       "@type": "WebSite",
@@ -2251,11 +2387,11 @@ h2.section-h .lagoon{color:var(--lagoon)}
       "about": {"@id": "https://www.bigislandseo.com/#organization"},
       "primaryImageOfPage": "https://www.bigislandseo.com/images/big-island-seo.jpg",
       "datePublished": "2026-05-11",
-      "dateModified": "2026-05-11",
+      "dateModified": "2026-05-15",
       "inLanguage": "en-US",
       "speakable": {
         "@type": "SpeakableSpecification",
-        "cssSelector": [".faq-q", ".faq-a", "h1", ".section-h"]
+        "cssSelector": [".faq-q", ".faq-a", "h1", ".section-h", ".hero p.lede"]
       }
     },
     {
@@ -2294,6 +2430,28 @@ h2.section-h .lagoon{color:var(--lagoon)}
 
 <!-- ================= JAVASCRIPT ================= -->
 <script>
+// ============= Success banner on FormSubmit redirect =============
+(function(){
+  if (window.location.search.includes('submitted=1')) {
+    const banner = document.getElementById('successBanner');
+    if (banner) {
+      banner.classList.add('visible');
+      // Scroll to top so user sees it
+      window.scrollTo({top: 0, behavior: 'smooth'});
+      // Auto-dismiss after 6 seconds
+      setTimeout(() => {
+        banner.style.transition = 'opacity .6s ease';
+        banner.style.opacity = '0';
+        setTimeout(() => banner.classList.remove('visible'), 600);
+      }, 6000);
+    }
+    // Clean the URL without reload
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  }
+})();
+
 // ============= Header scroll =============
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
@@ -2330,7 +2488,6 @@ document.querySelectorAll('.faq-item').forEach(item => {
 
 // ============= Fade-in observer =============
 const fadeEls = document.querySelectorAll('.fade-in');
-// Set initial invisible state via JS so non-JS users still see content
 fadeEls.forEach(el => el.classList.add('invisible'));
 const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -2347,7 +2504,8 @@ setTimeout(() => {
   document.querySelectorAll('.fade-in.invisible').forEach(el => el.classList.remove('invisible'));
 }, 3000);
 
-// ============= Form time-trap spam protection =============
+// ============= Form spam protection (triple-layer) =============
+// Layer 1: Set time-trap timestamp on page load
 window.addEventListener('DOMContentLoaded', () => {
   const loaded = document.getElementById('form_loaded');
   if (loaded) loaded.value = Date.now();
@@ -2355,26 +2513,67 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const form = document.getElementById('leadForm');
 const submitBtn = document.getElementById('submitBtn');
+
 if (form) {
   form.addEventListener('submit', (e) => {
-    // Honeypot check
-    const hp = document.getElementById('hpot');
-    if (hp && hp.value.trim() !== '') {
+
+    // --- Layer 1: Double honeypot check (silent fake-success — don't tip off bots) ---
+    const hp  = document.getElementById('hpot');
+    const hp2 = document.getElementById('hpot2');
+    if ((hp && hp.value.trim() !== '') || (hp2 && hp2.value.trim() !== '')) {
       e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Message Sent ✓';
       return false;
     }
-    // Time-trap: too fast = bot
+
+    // --- Layer 2: Time-trap (under 3.5s = bot) — also silent ---
     const loaded = document.getElementById('form_loaded');
     if (loaded && loaded.value) {
       const elapsed = Date.now() - parseInt(loaded.value, 10);
       if (elapsed < 3500) {
         e.preventDefault();
-        alert('Please take a moment to fill out the form.');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Message Sent ✓';
         return false;
       }
     }
+
+    // --- Layer 3: Regex validation on email and phone ---
+    const emailEl = document.getElementById('email');
+    const phoneEl = document.getElementById('phone');
+    const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    const phoneRx = /^[\+\d][\d\s\(\)\-\.]{6,20}$/;
+
+    if (emailEl) {
+      emailEl.classList.remove('field-error');
+      if (!emailRx.test(emailEl.value.trim())) {
+        e.preventDefault();
+        emailEl.classList.add('field-error');
+        emailEl.focus();
+        return false;
+      }
+    }
+
+    if (phoneEl) {
+      phoneEl.classList.remove('field-error');
+      if (!phoneRx.test(phoneEl.value.trim())) {
+        e.preventDefault();
+        phoneEl.classList.add('field-error');
+        phoneEl.focus();
+        return false;
+      }
+    }
+
+    // All checks passed — allow native FormSubmit POST
     submitBtn.disabled = true;
     submitBtn.textContent = 'Sending...';
+  });
+
+  // Clear field-error highlight on re-focus
+  ['email','phone'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('focus', () => el.classList.remove('field-error'));
   });
 }
 
@@ -2398,18 +2597,15 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   const vB = document.querySelector('.hero-video-b');
   if (!vA || !vB) return;
 
-  // Error fallback — hide both if video fails
   [vA, vB].forEach(v => {
     v.addEventListener('error', () => { v.style.display = 'none'; });
     v.muted = true;
   });
 
-  // Crossfade window: start fading to the other video this many seconds before end
   const FADE_LEAD = 0.7;
-
-  let active = vA;       // currently visible/playing
-  let queued = vB;       // hidden, paused at 0, ready
-  let swapping = false;  // guard against double-fires
+  let active = vA;
+  let queued = vB;
+  let swapping = false;
 
   function startActive(v){
     v.classList.add('is-active');
@@ -2425,7 +2621,6 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     try { v.currentTime = 0; } catch(e){}
   }
 
-  // Initial state
   startActive(vA);
   prepQueued(vB);
 
@@ -2434,16 +2629,13 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
       const remaining = active.duration - active.currentTime;
       if (remaining <= FADE_LEAD && remaining >= 0) {
         swapping = true;
-        // Begin playing the queued video from 0 underneath
         queued.currentTime = 0;
         const p = queued.play();
         if (p && p.catch) p.catch(()=>{});
-        // Trigger CSS crossfade
         queued.classList.remove('is-inactive');
         queued.classList.add('is-active');
         active.classList.remove('is-active');
         active.classList.add('is-inactive');
-        // After fade completes, swap roles and reset old active
         setTimeout(() => {
           const oldActive = active;
           active = queued;
