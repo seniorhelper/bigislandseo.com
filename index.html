@@ -1916,63 +1916,49 @@ h2.section-h .lagoon{color:var(--lagoon)}
         </div>
       </div>
 
-      <!-- =====================================================
-           FORM — sends to info@eyetoad.com via FormSubmit.
-           FormSubmit is already activated for info@eyetoad.com.
-           ===================================================== -->
-      <form class="lead-form fade-in" id="leadForm" action="https://formsubmit.co/info@eyetoad.com" method="POST">
+      <!-- AJAX form — uses FormSubmit AJAX endpoint, never redirects to formsubmit.co -->
+      <div class="lead-form fade-in" id="leadFormWrap">
         <div class="form-title">Start the conversation.</div>
         <div class="form-sub">It takes 60 seconds. We respond fast.</div>
 
-        <!-- Honeypot trap 1: FormSubmit's native field, hidden from real users -->
         <div class="honey-trap" aria-hidden="true">
           <label for="hpot">Don't fill this out</label>
-          <input type="text" name="_honey" id="hpot" tabindex="-1" autocomplete="off">
+          <input type="text" id="hpot" tabindex="-1" autocomplete="off">
         </div>
-
-        <!-- Honeypot trap 2: Enticing name for bots, JS-checked client-side -->
         <div class="honey-trap" aria-hidden="true">
           <label for="hpot2">Website URL</label>
-          <input type="text" name="url" id="hpot2" tabindex="-1" autocomplete="off">
+          <input type="text" id="hpot2" tabindex="-1" autocomplete="off">
         </div>
-
-        <!-- FormSubmit config -->
-        <input type="hidden" name="_subject" value="New Big Island SEO Lead">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://www.bigislandseo.com/?submitted=1">
-        <input type="hidden" name="form_loaded" id="form_loaded" value="">
+        <input type="hidden" id="form_loaded" value="">
 
         <div class="form-row">
           <div class="form-field">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="First Name" required autocomplete="given-name">
+            <input type="text" id="fname" autocomplete="given-name" placeholder="First name">
           </div>
           <div class="form-field">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="Last Name" required autocomplete="family-name">
+            <input type="text" id="lname" autocomplete="family-name" placeholder="Last name">
           </div>
         </div>
-
         <div class="form-row">
           <div class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="Email" required autocomplete="email">
+            <label for="lemail">Email</label>
+            <input type="email" id="lemail" autocomplete="email" placeholder="your@email.com">
           </div>
           <div class="form-field">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="Phone" required autocomplete="tel">
+            <label for="lphone">Phone</label>
+            <input type="tel" id="lphone" autocomplete="tel" placeholder="(808) 555-0100">
           </div>
         </div>
-
         <div class="form-row">
           <div class="form-field">
             <label for="biz">Business Name</label>
-            <input type="text" id="biz" name="Business" required>
+            <input type="text" id="biz" placeholder="Your business name">
           </div>
           <div class="form-field">
             <label for="island">Island</label>
-            <select id="island" name="Island" required>
+            <select id="island">
               <option value="">Select island</option>
               <option>Big Island (Hawaii)</option>
               <option>Oahu</option>
@@ -1985,11 +1971,10 @@ h2.section-h .lagoon{color:var(--lagoon)}
             </select>
           </div>
         </div>
-
         <div class="form-row">
           <div class="form-field">
             <label for="customers">New Customers Wanted / Month</label>
-            <select id="customers" name="Customers Wanted" required>
+            <select id="customers">
               <option value="">Select range</option>
               <option>5 to 10</option>
               <option>10 to 25</option>
@@ -2001,7 +1986,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
           </div>
           <div class="form-field">
             <label for="budget">Monthly Marketing Budget</label>
-            <select id="budget" name="Budget" required>
+            <select id="budget">
               <option value="">Select range</option>
               <option>Under $1,000</option>
               <option>$1,000 – $2,500</option>
@@ -2012,15 +1997,22 @@ h2.section-h .lagoon{color:var(--lagoon)}
             </select>
           </div>
         </div>
-
         <div class="form-field">
           <label for="msg">What's your biggest growth challenge right now?</label>
-          <textarea id="msg" name="Message" placeholder="Tell us what's going on with your marketing, your competitors, or what you're trying to accomplish..."></textarea>
+          <textarea id="msg" placeholder="Tell us what's going on with your marketing, your competitors, or what you're trying to accomplish..."></textarea>
         </div>
 
-        <button type="submit" class="form-submit" id="submitBtn">Get my customer plan →</button>
+        <div id="form-err" style="display:none;color:var(--hibiscus);font-size:.88rem;margin-bottom:10px;padding:10px 14px;background:#fff0f0;border-radius:8px;border:1px solid rgba(230,57,70,.25);"></div>
+
+        <div id="form-ok" style="display:none;text-align:center;padding:28px 20px;">
+          <div style="font-size:2.4rem;margin-bottom:10px;">&#x2705;</div>
+          <div style="font-family:var(--font-display);font-size:1.4rem;font-weight:500;color:var(--ink);margin-bottom:8px;">Got it! We'll be in touch.</div>
+          <div style="font-size:.93rem;color:var(--muted);">Expect a response within one business day — usually faster.<br>Or call us now: <a href="tel:1-800-481-8639" style="color:var(--lava);font-weight:700;">1-800-481-8639</a></div>
+        </div>
+
+        <button type="button" class="form-submit" id="submitBtn">Get my customer plan &#8594;</button>
         <div class="form-note">No spam, no pressure, no contracts. By submitting, you agree we may contact you about your inquiry.</div>
-      </form>
+      </div>
     </div>
   </div>
 </section>
@@ -2502,78 +2494,105 @@ setTimeout(() => {
   document.querySelectorAll('.fade-in.invisible').forEach(el => el.classList.remove('invisible'));
 }, 3000);
 
-// ============= Form spam protection (triple-layer) =============
-// Layer 1: Set time-trap timestamp on page load
-window.addEventListener('DOMContentLoaded', () => {
-  const loaded = document.getElementById('form_loaded');
-  if (loaded) loaded.value = Date.now();
-});
+// ============= Form — AJAX submit, no redirect, graceful error handling =============
+(function(){
+  var ENDPOINT = 'https://formsubmit.co/ajax/info@eyetoad.com';
+  var lastSubmit = 0;
 
-const form = document.getElementById('leadForm');
-const submitBtn = document.getElementById('submitBtn');
+  // Set time-trap on load
+  var fl = document.getElementById('form_loaded');
+  if (fl) fl.value = Date.now();
 
-if (form) {
-  form.addEventListener('submit', (e) => {
+  var btn = document.getElementById('submitBtn');
+  var errBox = document.getElementById('form-err');
+  var okBox  = document.getElementById('form-ok');
+  if (!btn) return;
 
-    // --- Layer 1: Double honeypot check (silent fake-success — don't tip off bots) ---
-    const hp  = document.getElementById('hpot');
-    const hp2 = document.getElementById('hpot2');
+  function showErr(msg) {
+    errBox.textContent = msg;
+    errBox.style.display = 'block';
+    errBox.scrollIntoView({behavior:'smooth', block:'nearest'});
+  }
+  function clearErr() { errBox.style.display = 'none'; }
+
+  btn.addEventListener('click', function() {
+    clearErr();
+
+    // --- Honeypot ---
+    var hp  = document.getElementById('hpot');
+    var hp2 = document.getElementById('hpot2');
     if ((hp && hp.value.trim() !== '') || (hp2 && hp2.value.trim() !== '')) {
-      e.preventDefault();
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Message Sent ✓';
-      return false;
+      // Silent fake-success for bots
+      btn.disabled = true; btn.textContent = 'Message Sent ✓'; return;
     }
 
-    // --- Layer 2: Time-trap (under 3.5s = bot) — also silent ---
-    const loaded = document.getElementById('form_loaded');
+    // --- Time-trap ---
+    var loaded = document.getElementById('form_loaded');
     if (loaded && loaded.value) {
-      const elapsed = Date.now() - parseInt(loaded.value, 10);
-      if (elapsed < 3500) {
-        e.preventDefault();
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Message Sent ✓';
-        return false;
+      if (Date.now() - parseInt(loaded.value, 10) < 3500) {
+        btn.disabled = true; btn.textContent = 'Message Sent ✓'; return;
       }
     }
 
-    // --- Layer 3: Regex validation on email and phone ---
-    const emailEl = document.getElementById('email');
-    const phoneEl = document.getElementById('phone');
-    const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
-    const phoneRx = /^[\+\d][\d\s\(\)\-\.]{6,20}$/;
-
-    if (emailEl) {
-      emailEl.classList.remove('field-error');
-      if (!emailRx.test(emailEl.value.trim())) {
-        e.preventDefault();
-        emailEl.classList.add('field-error');
-        emailEl.focus();
-        return false;
-      }
+    // --- Rate limit ---
+    var now = Date.now();
+    if (lastSubmit && (now - lastSubmit) < 60000) {
+      showErr('Please wait a moment before submitting again.'); return;
     }
 
-    if (phoneEl) {
-      phoneEl.classList.remove('field-error');
-      if (!phoneRx.test(phoneEl.value.trim())) {
-        e.preventDefault();
-        phoneEl.classList.add('field-error');
-        phoneEl.focus();
-        return false;
-      }
-    }
+    // --- Field validation ---
+    var fname = (document.getElementById('fname').value || '').trim();
+    var lname = (document.getElementById('lname').value || '').trim();
+    var email = (document.getElementById('lemail').value || '').trim();
+    var phone = (document.getElementById('lphone').value || '').trim();
+    var biz   = (document.getElementById('biz').value || '').trim();
 
-    // All checks passed — allow native FormSubmit POST
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
+    if (fname.length < 1) { showErr('Please enter your first name.'); return; }
+    if (phone.replace(/\D/g,'').length < 10) { showErr('Please enter a valid phone number (10+ digits).'); return; }
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { showErr('Please enter a valid email address.'); return; }
+
+    // --- Submit via AJAX ---
+    lastSubmit = now;
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+
+    var payload = {
+      _subject: 'New Big Island SEO Lead — ' + fname + ' ' + lname,
+      _captcha: 'false',
+      _template: 'table',
+      'First Name': fname,
+      'Last Name':  lname,
+      'Email':      email || '(not provided)',
+      'Phone':      phone,
+      'Business':   biz || '(not provided)',
+      'Island':     document.getElementById('island').value || '(not selected)',
+      'Customers Wanted': document.getElementById('customers').value || '(not selected)',
+      'Budget':     document.getElementById('budget').value || '(not selected)',
+      'Message':    (document.getElementById('msg').value || '').trim() || '(none)',
+      'Source':     'bigislandseo.com contact form'
+    };
+
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      // Show in-page success — never redirect to formsubmit.co
+      btn.style.display = 'none';
+      document.querySelector('.form-note').style.display = 'none';
+      okBox.style.display = 'block';
+      okBox.scrollIntoView({behavior:'smooth', block:'nearest'});
+    })
+    .catch(function() {
+      // FormSubmit is down or network error — show friendly message with phone number
+      btn.disabled = false;
+      btn.textContent = 'Get my customer plan →';
+      showErr('Our form is having a technical issue right now. Please call us directly at 1-800-481-8639 or email sales@eyetoad.com — we respond fast.');
+    });
   });
-
-  // Clear field-error highlight on re-focus
-  ['email','phone'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.addEventListener('focus', () => el.classList.remove('field-error'));
-  });
-}
+})();
 
 // ============= Smooth scroll for hash links =============
 document.querySelectorAll('a[href^="#"]').forEach(link => {
