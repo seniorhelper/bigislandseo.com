@@ -1,47 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
     <loc>https://www.bigislandseo.com/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
-    <image:image>
-      <image:loc>https://www.bigislandseo.com/images/big-island-seo.jpg</image:loc>
-      <image:title>Big Island SEO &amp; Hawaii Advertising Agency</image:title>
-      <image:caption>Hawaii SEO, AI search optimization, PPC, web design, and lead generation by Eye To Ad Media.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bigislandseo.com/images/seo-hawaii.jpg</image:loc>
-      <image:title>SEO Hawaii — Conversion-Optimized Marketing</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bigislandseo.com/images/seo-company-hawaii.jpg</image:loc>
-      <image:title>SEO Company Hawaii — Eye To Ad Media</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bigislandseo.com/images/hawaii-seo.jpg</image:loc>
-      <image:title>Hawaii SEO Services</image:title>
-    </image:image>
-    <video:video>
-      <video:thumbnail_loc>https://www.bigislandseo.com/images/big-island-seo.jpg</video:thumbnail_loc>
-      <video:title>Big Island SEO — Hawaii Advertising Agency</video:title>
-      <video:description>Background hero video showcasing Hawaii SEO, AI search optimization, and digital marketing services delivered across all six Hawaiian islands by Eye To Ad Media.</video:description>
-      <video:content_loc>https://www.bigislandseo.com/images/big-island-seo-hero-video%20(1).mp4</video:content_loc>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:live>no</video:live>
-      <video:requires_subscription>no</video:requires_subscription>
-    </video:video>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/hawaii-local-seo/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/hawaii-ai-seo/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/honolulu-seo/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/kauai-seo/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/hawaii-tourism-seo/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/hawaii-web-design/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/hawaii-seo-pricing/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bigislandseo.com/contact/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.bigislandseo.com/sitemap.html</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.40</priority>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
