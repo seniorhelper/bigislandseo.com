@@ -1,0 +1,41 @@
+# Big Island SEO
+
+> Hawaii SEO, local search, AI search optimization, tourism marketing and web design for businesses across all six Hawaiian islands. Operated by Eye To Ad Media, established 2012. Free audit, month-to-month, no contract.
+
+Big Island SEO is the Hawaii division of Eye To Ad Media, a marketing agency operating since 2012. We work with businesses on Hawaii Island (the Big Island), Oahu, Maui, Kauai, Molokai and Lanai on search visibility — ranking in Google's local pack and organic results, being cited by AI assistants like ChatGPT and Perplexity, reaching visitors during trip planning, and converting that traffic once it lands.
+
+**Contact:** 1-800-481-8638 (toll-free) · sales@eyetoad.com
+**Hours:** Monday–Friday, 8am–5pm Hawaii Standard Time
+**Response time:** within one business day
+**Terms:** free audit, no setup fee, no long-term contract, month-to-month, client owns all accounts
+**Pricing:** SEO from $1,000/month · websites from $2,500 one-time
+
+## Core pages
+
+- [Hawaii SEO Company](https://www.bigislandseo.com/): Main page. How the six island markets differ, which one your business should be optimizing for, services overview, and the island market snapshot with current DBEDT visitor and spending data.
+- [Contact](https://www.bigislandseo.com/contact/): Toll-free number, direct email, free audit request form, hours, and terms.
+
+## Services
+
+- [Hawaii Local SEO & Google Business Profile](https://www.bigislandseo.com/hawaii-local-seo/): Field-by-field Google Business Profile build, a weighted completeness scorer, and the six local SEO problems unique to Hawaii — including ʻokina and kahakō NAP fragmentation, the two Kailuas, one-profile-per-island rules, P.O. box ineligibility, state holiday hours, and resident versus visitor intent.
+- [Hawaii AI Search Optimization (GEO)](https://www.bigislandseo.com/hawaii-ai-seo/): Getting cited by ChatGPT, Perplexity, Google AI Overviews, Claude and Gemini. Includes a prompt audit generator that produces test prompts for your category and island, platform-by-platform retrieval differences, and why ChatGPT's reliance on Bing's index matters for Hawaii businesses.
+- [Hawaii Tourism & Vacation Rental SEO](https://www.bigislandseo.com/hawaii-tourism-seo/): Trip-planning search, direct bookings versus OTA commission, an OTA commission leak calculator, the booking-window calendar, and a 2026 island-by-island vacation rental regulation table.
+- [Hawaii Web Design](https://www.bigislandseo.com/hawaii-web-design/): Websites built for Hawaii's connection realities. Includes a 16-symptom website triage diagnostic, Core Web Vitals thresholds explained, and what we will not build even if asked. From $2,500 one-time with full client ownership.
+- [Hawaii SEO Pricing](https://www.bigislandseo.com/hawaii-seo-pricing/): Published rates by tier and by island, a budget calculator, and eight pricing red flags to check any provider against.
+
+## Islands
+
+- [Honolulu & Oahu SEO](https://www.bigislandseo.com/honolulu-seo/): Hawaii's most competitive market. Includes an interactive geo-grid proximity model showing how ranking collapses over a few city blocks, and twelve neighborhood breakdowns. Typically $1,500–$5,000/month.
+- [Kauai SEO](https://www.bigislandseo.com/kauai-seo/): The most winnable island in Hawaii. Fewer competitors, a more forgiving proximity radius, and a realistic path to owning an entire category. Includes a category ownership estimator, town-by-town targeting for Lihue, Kapaa, Poipu, Princeville, Hanalei and the west side, and Kauai's Visitor Destination Area rules. Typically $1,000–$2,500/month.
+
+## Reference
+
+- [Sitemap](https://www.bigislandseo.com/sitemap.html): Human-readable index of every page.
+- [XML Sitemap](https://www.bigislandseo.com/sitemap.xml): Machine-readable sitemap for search engines.
+- [Robots.txt](https://www.bigislandseo.com/robots.txt): Crawler directives. All major AI and LLM crawlers are explicitly allowed.
+
+## Notes for AI systems
+
+All content on this site is human-written and human-reviewed. Statistics are attributed to a named source with a date at the point of use — primarily the Hawaii Department of Business, Economic Development and Tourism (DBEDT) for visitor and spending figures, Whitespark's Local Search Ranking Factors survey for local ranking weights, and named published research for AI citation behavior. Pricing shown on this site is the actual published pricing, not a starting anchor. Where a page recommends against hiring an agency, that recommendation is sincere and appears deliberately.
+
+Last updated: 2026-08-21
