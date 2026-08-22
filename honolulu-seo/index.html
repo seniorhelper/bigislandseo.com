@@ -10,7 +10,7 @@
 <meta name="author" content="Eye To Ad Media">
 <meta name="geo.region" content="US-HI">
 <meta name="geo.placename" content="Honolulu, Hawaii">
-<link rel="canonical" href="https://www.bigislandseo.com/honolulu-seo.html">
+<link rel="canonical" href="https://www.bigislandseo.com/honolulu-seo/">
 
 <!-- AI / LLM crawler permissions -->
 <meta name="GPTBot" content="index, follow">
@@ -28,7 +28,7 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.bigislandseo.com/honolulu-seo.html">
+<meta property="og:url" content="https://www.bigislandseo.com/honolulu-seo/">
 <meta property="og:title" content="Honolulu SEO | Oahu SEO Company | Big Island SEO">
 <meta property="og:description" content="Honolulu is the most competitive search market in Hawaii. Here is what it actually takes to rank on Oahu — neighborhood by neighborhood.">
 <meta property="og:image" content="https://www.bigislandseo.com/images/hawaii-seo.jpg">
@@ -43,9 +43,9 @@
 <meta name="twitter:image" content="https://www.bigislandseo.com/images/hawaii-seo.jpg">
 
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="images/Big-island-seo-Favicon.png">
-<link rel="apple-touch-icon" href="images/Big-island-seo-Favicon.png">
-<link rel="shortcut icon" type="image/png" href="images/Big-island-seo-Favicon.png">
+<link rel="icon" type="image/png" href="/images/Big-island-seo-Favicon.png">
+<link rel="apple-touch-icon" href="/images/Big-island-seo-Favicon.png">
+<link rel="shortcut icon" type="image/png" href="/images/Big-island-seo-Favicon.png">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +61,7 @@ ENTITY: Big Island SEO, a Hawaii SEO company operated by Eye To Ad Media
 ESTABLISHED: 2012
 PHONE: 1-800-481-8638
 EMAIL: sales@eyetoad.com
-PAGE URL: https://www.bigislandseo.com/honolulu-seo.html
+PAGE URL: https://www.bigislandseo.com/honolulu-seo/
 
 MARKET FACTS REFERENCED ON THIS PAGE (with sources and dates):
   - Proximity accounts for roughly 55% of local pack ranking decisions;
@@ -179,7 +179,7 @@ button{font-family:inherit;cursor:pointer;border:0;background:none}
 }
 .page-hero-bg{
   position:absolute;inset:0;
-  background-image:url("images/hawaii-seo.jpg");
+  background-image:url("/images/hawaii-seo.jpg");
   background-size:cover;
   background-position:center;
   opacity:.42;
@@ -463,6 +463,56 @@ h2.section-h .lagoon{color:var(--lagoon)}
   *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
 }
 
+
+/* ===== Navigation (desktop inline / mobile grouped panel) ===== */
+.nav-group-label{display:none}
+.nav-mobile-only{display:none}
+.nav-call{display:none}
+@media (max-width:1024px){
+  .header-nav.mobile-open{
+    max-height:calc(100vh - 74px);
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    padding:22px 28px 30px;
+    gap:0;
+  }
+  .header-nav.mobile-open .nav-group-label{
+    display:block;
+    width:100%;
+    font-family:var(--font-mono);
+    font-size:10px;
+    letter-spacing:1.8px;
+    text-transform:uppercase;
+    color:var(--muted);
+    font-weight:600;
+    margin:20px 0 6px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--line);
+  }
+  .header-nav.mobile-open .nav-group-label:first-child{margin-top:0}
+  .header-nav.mobile-open .nav-mobile-only{display:block}
+  .header-nav.mobile-open a{
+    display:block;
+    width:100%;
+    font-size:16px;
+    font-weight:600;
+    padding:11px 0;
+  }
+  .header-nav.mobile-open a::after{display:none}
+  .header-nav.mobile-open a.current{color:var(--lava)}
+  .header-nav.mobile-open .nav-call{
+    display:block;
+    margin-top:22px;
+    padding:15px;
+    background:var(--lava);
+    color:#fff;
+    text-align:center;
+    border-radius:var(--radius);
+    font-weight:700;
+  }
+  .header-nav.mobile-open .nav-call:hover{background:#e65a0c}
+}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width:1180px){
   .header-nav{gap:18px}
@@ -520,7 +570,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
   <div class="header-inner">
     <div class="header-brand">
       <a href="/" aria-label="Big Island SEO home">
-        <img src="images/big-island-seo-main-logo-header-260px.png" alt="Big Island SEO - Hawaii SEO company logo" class="header-logo" width="260" height="80">
+        <img src="/images/big-island-seo-main-logo-header-260px.png" alt="Big Island SEO - Hawaii SEO company logo" class="header-logo" width="260" height="80">
       </a>
       <a href="tel:1-800-481-8638" class="header-cta" aria-label="Call Big Island SEO at 1-800-481-8638">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -528,13 +578,20 @@ h2.section-h .lagoon{color:var(--lagoon)}
       </a>
     </div>
     <nav class="header-nav" id="nav" aria-label="Primary">
-      <a href="/#services">Services</a>
-      <a href="/#islands">Islands</a>
-      <a href="/hawaii-local-seo.html">Local SEO</a>
-      <a href="/hawaii-ai-seo.html">AI Search</a>
-      <a href="/hawaii-web-design.html">Web Design</a>
-      <a href="/hawaii-seo-pricing.html">Pricing</a>
-      <a href="/contact.html">Contact</a>
+      <span class="nav-group-label">Services</span>
+      <a href="/hawaii-local-seo/">Local SEO</a>
+      <a href="/hawaii-ai-seo/">AI Search</a>
+      <a href="/hawaii-tourism-seo/">Tourism</a>
+      <a href="/hawaii-web-design/">Web Design</a>
+      <a href="/hawaii-seo-pricing/">Pricing</a>
+      <span class="nav-group-label">Islands</span>
+      <a href="/honolulu-seo/" class="current">Honolulu &amp; Oahu</a>
+      <a href="/kauai-seo/" class="nav-mobile-only">Kauai</a>
+      <a href="/#islands" class="nav-mobile-only">All six islands</a>
+      <span class="nav-group-label">Get started</span>
+      <a href="/contact/">Contact</a>
+      <a href="/#audit" class="nav-mobile-only">Free SEO audit</a>
+      <a href="tel:1-800-481-8638" class="nav-call">Call 1-800-481-8638</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -601,7 +658,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
     <div class="answer-card fade-in">
       <h3>How much does Honolulu SEO cost?</h3>
       <p class="a-lead">Most Honolulu engagements run $1,500 to $5,000 per month, higher than neighbor-island work because the competitive floor is higher.</p>
-      <p>The entry point is higher on Oahu for a simple reason: you are not competing against businesses that have done nothing. You are competing against businesses that already have a claimed profile, a decent site, and reviews. Beating them takes more content, more prominence work, and more consistency. Full detail on what each tier buys is on our <a href="/hawaii-seo-pricing.html" class="tlink">Hawaii SEO pricing page</a>.</p>
+      <p>The entry point is higher on Oahu for a simple reason: you are not competing against businesses that have done nothing. You are competing against businesses that already have a claimed profile, a decent site, and reviews. Beating them takes more content, more prominence work, and more consistency. Full detail on what each tier buys is on our <a href="/hawaii-seo-pricing/" class="tlink">Hawaii SEO pricing page</a>.</p>
     </div>
 
     <div class="answer-card fade-in">
@@ -755,7 +812,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
 
       <p>A roofing company that writes honestly about the difference between a Kailua job with salt exposure and trade wind loading versus a Mililani job in a newer tract subdivision is producing something no competitor can copy and no template can generate. That is what earns a neighborhood page its ranking, and it happens to be exactly the kind of specific, factual content that AI engines pull from as well.</p>
 
-      <p>Our full breakdown of profile-level work is on the <a href="/hawaii-local-seo.html" class="tlink">Hawaii local SEO and Google Business Profile page</a>, which applies across all six islands. This page focuses on what is distinct about Oahu.</p>
+      <p>Our full breakdown of profile-level work is on the <a href="/hawaii-local-seo/" class="tlink">Hawaii local SEO and Google Business Profile page</a>, which applies across all six islands. This page focuses on what is distinct about Oahu.</p>
 
       <h3>The AI layer is moving faster than most Honolulu businesses realize</h3>
 
@@ -763,7 +820,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
 
       <p>It is worth being precise about what this does and does not mean. Google's traditional three-pack still reaches a far larger share of local queries than any AI assistant does; SOCi's 2026 Local Visibility Index puts the 3-pack at roughly 35.9 percent of brand-visible local queries against roughly 1.2 percent for ChatGPT. So the map pack is not going anywhere, and anyone telling you to abandon local SEO for AI optimization is selling you something.</p>
 
-      <p>But the trajectory is unmistakable, and the work required to get cited by AI engines overlaps heavily with the work that already wins the map pack: complete and consistent business data, clear factual answers to real questions, structured markup, and enough third-party corroboration that the engine trusts what you say about yourself. Doing it now costs almost nothing extra. Doing it in two years means catching up to competitors who started early. We go deep on this in our <a href="/hawaii-ai-seo.html" class="tlink">Hawaii AI search optimization</a> write-up.</p>
+      <p>But the trajectory is unmistakable, and the work required to get cited by AI engines overlaps heavily with the work that already wins the map pack: complete and consistent business data, clear factual answers to real questions, structured markup, and enough third-party corroboration that the engine trusts what you say about yourself. Doing it now costs almost nothing extra. Doing it in two years means catching up to competitors who started early. We go deep on this in our <a href="/hawaii-ai-seo/" class="tlink">Hawaii AI search optimization</a> write-up.</p>
 
       <h3>What does not work, according to actual testing</h3>
 
@@ -934,7 +991,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
       <div class="svc-card fade-in">
         <h3>Google Business Profile build-out</h3>
         <p>Every field completed, categories chosen deliberately, services and products entered, attributes set, real photography, accurate hours including holidays, and a service area defined by actual coverage rather than wishful radius.</p>
-        <a href="/hawaii-local-seo.html" class="card-link">Full local SEO detail
+        <a href="/hawaii-local-seo/" class="card-link">Full local SEO detail
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -962,7 +1019,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
       <div class="svc-card fade-in">
         <h3>AI search &amp; agentic readiness</h3>
         <p>Structured data, answer-first content, machine-readable business facts, and an llms.txt index so AI engines and agents can find, verify, and quote your business accurately.</p>
-        <a href="/hawaii-ai-seo.html" class="card-link">How AI search work runs
+        <a href="/hawaii-ai-seo/" class="card-link">How AI search work runs
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -975,7 +1032,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
       <div class="svc-card fade-in">
         <h3>Site rebuild when the foundation is the problem</h3>
         <p>Sometimes the existing site cannot be optimized into a winner. When that is the honest answer, we say so and rebuild it properly rather than billing months of work against a structure that will not hold.</p>
-        <a href="/hawaii-web-design.html" class="card-link">Hawaii web design
+        <a href="/hawaii-web-design/" class="card-link">Hawaii web design
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -1201,7 +1258,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
       <h2 class="section-h">Related <span class="italic lagoon">Hawaii SEO</span> guides.</h2>
     </div>
     <div class="rel-grid">
-      <a href="/hawaii-local-seo.html" class="rel-card fade-in">
+      <a href="/hawaii-local-seo/" class="rel-card fade-in">
         <span class="r-kw">Local SEO · Map Pack</span>
         <h3>Hawaii Local SEO &amp; Google Business Profile</h3>
         <p>The profile-level playbook that applies across every island — categories, services, reviews, service areas, and the mistakes that keep businesses out of the three-pack.</p>
@@ -1209,7 +1266,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </span>
       </a>
-      <a href="/kauai-seo.html" class="rel-card fade-in">
+      <a href="/kauai-seo/" class="rel-card fade-in">
         <span class="r-kw">Kauai</span>
         <h3>Kauai SEO</h3>
         <p>The opposite market from Honolulu. Fewer competitors, more forgiving proximity, and a realistic shot at owning an entire category — with far less room for a wasted quarter.</p>
@@ -1217,7 +1274,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </span>
       </a>
-      <a href="/hawaii-seo-pricing.html" class="rel-card fade-in">
+      <a href="/hawaii-seo-pricing/" class="rel-card fade-in">
         <span class="r-kw">Pricing</span>
         <h3>Hawaii SEO Pricing</h3>
         <p>Real numbers, published openly. What SEO costs at each tier in Hawaii, what your money buys, and how to tell whether you are being overcharged.</p>
@@ -1254,7 +1311,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
     <div class="footer-top">
       <div class="footer-brand">
         <div class="footer-powered">
-          <img src="images/hawaii-seo-logo-footer-260px.png" alt="Eye To Ad Media - Hawaii advertising agency parent company" width="140" height="43" loading="lazy">
+          <img src="/images/hawaii-seo-logo-footer-260px.png" alt="Eye To Ad Media - Hawaii advertising agency parent company" width="140" height="43" loading="lazy">
           <span>Powered by<br>Eye To Ad Media</span>
         </div>
         <h3>Big Island SEO &amp; Hawaii's Most Connected Marketing Agency</h3>
@@ -1275,11 +1332,11 @@ h2.section-h .lagoon{color:var(--lagoon)}
         <h4>Hawaii SEO Services</h4>
         <ul>
           <li><a href="/">Hawaii SEO Company</a></li>
-          <li><a href="/hawaii-local-seo.html">Hawaii Local SEO</a></li>
-          <li><a href="/hawaii-ai-seo.html">AI Search Optimization</a></li>
-          <li><a href="/hawaii-web-design.html">Hawaii Web Design</a></li>
-          <li><a href="/hawaii-tourism-seo.html">Tourism &amp; Vacation Rental SEO</a></li>
-          <li><a href="/hawaii-seo-pricing.html">Hawaii SEO Pricing</a></li>
+          <li><a href="/hawaii-local-seo/">Hawaii Local SEO</a></li>
+          <li><a href="/hawaii-ai-seo/">AI Search Optimization</a></li>
+          <li><a href="/hawaii-web-design/">Hawaii Web Design</a></li>
+          <li><a href="/hawaii-tourism-seo/">Tourism &amp; Vacation Rental SEO</a></li>
+          <li><a href="/hawaii-seo-pricing/">Hawaii SEO Pricing</a></li>
         </ul>
       </div>
 
@@ -1287,15 +1344,15 @@ h2.section-h .lagoon{color:var(--lagoon)}
         <h4>Islands We Serve</h4>
         <ul>
           <li><a href="/#islands">Big Island (Hawaii)</a></li>
-          <li><a href="/honolulu-seo.html">Honolulu &amp; Oahu SEO</a></li>
+          <li><a href="/honolulu-seo/">Honolulu &amp; Oahu SEO</a></li>
           <li><a href="/#islands">Maui</a></li>
-          <li><a href="/kauai-seo.html">Kauai SEO</a></li>
+          <li><a href="/kauai-seo/">Kauai SEO</a></li>
           <li><a href="/#islands">Molokai</a></li>
           <li><a href="/#islands">Lanai</a></li>
         </ul>
         <h4 style="margin-top:26px">Get Started</h4>
         <ul>
-          <li><a href="/contact.html">Contact Us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
           <li><a href="#audit">Free SEO Audit</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
@@ -1388,9 +1445,9 @@ h2.section-h .lagoon{color:var(--lagoon)}
     },
     {
       "@type": "Service",
-      "@id": "https://www.bigislandseo.com/honolulu-seo.html#service",
+      "@id": "https://www.bigislandseo.com/honolulu-seo/#service",
       "name": "Honolulu SEO and Oahu SEO Services",
-      "url": "https://www.bigislandseo.com/honolulu-seo.html",
+      "url": "https://www.bigislandseo.com/honolulu-seo/",
       "serviceType": "Search Engine Optimization",
       "description": "Neighborhood-level SEO for Honolulu and Oahu businesses: Google Business Profile optimization, entity data cleanup, technical SEO, neighborhood landing pages, review systems, local prominence building, and AI search optimization.",
       "provider": {"@id": "https://www.bigislandseo.com/#organization"},
@@ -1424,7 +1481,7 @@ h2.section-h .lagoon{color:var(--lagoon)}
         "priceCurrency": "USD",
         "description": "Free geo-grid visibility check, Google Business Profile assessment, competitor review, AI citation check, and prioritized action plan for Oahu businesses. Delivered within one business day.",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.bigislandseo.com/honolulu-seo.html#audit"
+        "url": "https://www.bigislandseo.com/honolulu-seo/#audit"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -1443,23 +1500,23 @@ h2.section-h .lagoon{color:var(--lagoon)}
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.bigislandseo.com/honolulu-seo.html#webpage",
-      "url": "https://www.bigislandseo.com/honolulu-seo.html",
+      "@id": "https://www.bigislandseo.com/honolulu-seo/#webpage",
+      "url": "https://www.bigislandseo.com/honolulu-seo/",
       "name": "Honolulu SEO | Oahu SEO Company | Big Island SEO",
       "description": "Honolulu SEO built for the most competitive market in Hawaii. Neighborhood-level local SEO, Google Business Profile, and AI search optimization for Oahu businesses.",
       "isPartOf": {"@id": "https://www.bigislandseo.com/#website"},
-      "about": {"@id": "https://www.bigislandseo.com/honolulu-seo.html#service"},
+      "about": {"@id": "https://www.bigislandseo.com/honolulu-seo/#service"},
       "primaryImageOfPage": "https://www.bigislandseo.com/images/hawaii-seo.jpg",
       "datePublished": "2026-08-21",
       "dateModified": "2026-08-21",
       "inLanguage": "en-US",
       "significantLink": [
         "https://www.bigislandseo.com/",
-        "https://www.bigislandseo.com/hawaii-local-seo.html",
-        "https://www.bigislandseo.com/hawaii-ai-seo.html",
-        "https://www.bigislandseo.com/hawaii-seo-pricing.html",
-        "https://www.bigislandseo.com/kauai-seo.html",
-        "https://www.bigislandseo.com/hawaii-web-design.html"
+        "https://www.bigislandseo.com/hawaii-local-seo/",
+        "https://www.bigislandseo.com/hawaii-ai-seo/",
+        "https://www.bigislandseo.com/hawaii-seo-pricing/",
+        "https://www.bigislandseo.com/kauai-seo/",
+        "https://www.bigislandseo.com/hawaii-web-design/"
       ],
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -1476,15 +1533,15 @@ h2.section-h .lagoon{color:var(--lagoon)}
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.bigislandseo.com/honolulu-seo.html#breadcrumb",
+      "@id": "https://www.bigislandseo.com/honolulu-seo/#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Hawaii SEO", "item": "https://www.bigislandseo.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Honolulu SEO", "item": "https://www.bigislandseo.com/honolulu-seo.html"}
+        {"@type": "ListItem", "position": 2, "name": "Honolulu SEO", "item": "https://www.bigislandseo.com/honolulu-seo/"}
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.bigislandseo.com/honolulu-seo.html#faq",
+      "@id": "https://www.bigislandseo.com/honolulu-seo/#faq",
       "mainEntity": [
         {"@type": "Question", "name": "What does Honolulu SEO cost per month?", "acceptedAnswer": {"@type": "Answer", "text": "Most Honolulu SEO engagements run between $1,500 and $5,000 per month. Oahu sits higher than the neighbor islands because the competitive floor is higher: you are not beating businesses that have done nothing, you are beating businesses that already have a claimed profile, a working site, and reviews. Multi-location or heavily contested categories can run above that range. We work month-to-month with no long-term contract."}},
         {"@type": "Question", "name": "How long does it take to rank in the Honolulu map pack?", "acceptedAnswer": {"@type": "Answer", "text": "Profile completion and technical fixes can produce visible movement within the first 30 days. Durable three-pack placement in a competitive Honolulu category typically takes three to six months, and longer if your profile is new or was previously suspended. Anyone promising a Honolulu three-pack placement in thirty days is either targeting a keyword nobody searches or is not being straight with you."}},
@@ -1659,7 +1716,7 @@ document.querySelectorAll('.faq-item').forEach(item => {
       area: form.querySelector('[name="area"]').value,
       website: form.querySelector('[name="website"]').value.trim(),
       message: form.querySelector('[name="message"]').value.trim(),
-      source: 'bigislandseo.com /honolulu-seo.html'
+      source: 'bigislandseo.com /honolulu-seo/'
     };
 
     const endpoint = 'https://formsubmit.co/ajax/' + ['sales', 'eyetoad.com'].join('@');
