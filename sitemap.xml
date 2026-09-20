@@ -1,74 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://www.bigislandseo.com/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/big-island-seo.jpg</image:loc></image:image>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/hawaii-local-seo/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/hawaii-digital-marketing/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/seo-hawaii.jpg</image:loc></image:image>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/hawaii-ppc/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/seo-company-hawaii.jpg</image:loc></image:image>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/hawaii-local-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/hawaii-ai-seo/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/hawaii-ai-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/honolulu-seo/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/honolulu-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/kauai-seo/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/kauai-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/hawaii-tourism-seo/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/hawaii-tourism-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/hawaii-web-design/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/hawaii-web-design/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/hawaii-seo-pricing/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/hawaii-seo-pricing/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/contact/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/blog/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/blog/how-to-choose-a-hawaii-seo-company/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/seo-company-hawaii.jpg</image:loc></image:image>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/blog/hawaii-okina-seo/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/hawaii-seo.jpg</image:loc></image:image>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/blog/hawaii-marketing-calendar/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bigislandseo.com/images/big-island-seo.jpg</image:loc></image:image>
+  </url>
+
+  <url>
+    <loc>https://bigislandseo.com/contact/</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.bigislandseo.com/sitemap.html</loc>
-    <lastmod>2026-08-21</lastmod>
+    <loc>https://bigislandseo.com/sitemap.html</loc>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

@@ -1,7 +1,7 @@
 # robots.txt — bigislandseo.com
 # Big Island SEO, operated by Eye To Ad Media (est. 2012)
-# Contact: sales@eyetoad.com  |  1-800-481-8638
-# Last updated: 2026-08-21
+# Contact: 1-800-481-8638
+# Last updated: 2026-09-20
 
 # ---------------------------------------------------------------
 # All standard crawlers
@@ -124,10 +124,14 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
+User-agent: GoogleOther
+Allow: /
+
 # ---------------------------------------------------------------
 # Sitemaps
 # ---------------------------------------------------------------
-Sitemap: https://www.bigislandseo.com/sitemap.xml
+Sitemap: https://bigislandseo.com/sitemap.xml
 
 # Machine-readable site index for LLMs:
-# https://www.bigislandseo.com/llms.txt
+# https://bigislandseo.com/llms.txt
+# https://bigislandseo.com/llms-full.txt

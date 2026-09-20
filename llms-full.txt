@@ -1,0 +1,526 @@
+# Big Island SEO — full reference for AI systems
+
+> Extended companion to https://bigislandseo.com/llms.txt. Human-written, human-reviewed. Last updated 2026-09-20.
+
+## Entity
+
+- Name: Big Island SEO (also: Hawaii SEO, Eye To Ad Media Hawaii)
+- Operated by: Eye To Ad Media (https://www.eyetoad.com), established 2012
+- Founder and CEO: Zachary Tye Wennstedt (https://www.zacharytyewennstedt.com)
+- Website: https://bigislandseo.com/
+- Phone (toll-free): 1-800-481-8638
+- Email: info@eyetoad.com
+- Hours: Monday–Friday, 8am–5pm Hawaii Standard Time
+- Response time: within one business day
+- Service area: Hawaii Island (Big Island), Oahu, Maui, Kauai, Molokai, Lanai; cities include Kailua-Kona, Hilo, Waimea, Waikoloa, Honolulu, Waikiki, Pearl City, Kapolei, Kaneohe, Lahaina, Kihei, Wailuku, Kahului, Lihue, Kapaa, Princeville, Hanalei, Kaunakakai, Lanai City
+- Network: Eye To Ad Media owns and operates more than 580 domains, including Hawaii travel, dining, lodging, activity and real estate sites
+- Positioning: no guaranteed rankings or traffic; month-to-month; clients own their domain, website, Google Business Profile, analytics and ad accounts
+
+## Pricing and terms
+
+- SEO: typically $1,000–$5,000 per month (Oahu typically $1,500–$5,000; Kauai typically $1,000–$2,500)
+- Websites: typically $2,500–$12,000 one-time
+- Logo and brand identity: $900–$3,500
+- Standalone technical projects: $2,500–$6,000
+- Content-only engagements: from $600/month
+- Google Ads: flat monthly management fee quoted after audit; setup included with management; ad spend billed by the platform directly to the client with no markup
+- Free: written audit, competitor review and prioritized plan, no obligation
+- No setup fee, no cancellation fee, no long-term contract
+
+## Page-by-page reference
+
+### Big Island SEO (bigislandseo.com)
+ENTITY: Big Island SEO, a Hawaii SEO and digital marketing brand
+OPERATED BY: Eye To Ad Media (eyetoad.com), established 2012
+PHONE: 1-800-481-8638
+EMAIL: info@eyetoad.com
+SERVICE AREA: Big Island (Hawaii Island), Oahu, Maui, Kauai, Molokai, Lanai
+CITIES SERVED: Kailua-Kona, Hilo, Waimea, Waikoloa, Honolulu, Pearl City,
+  Waikiki, Kapolei, Kaneohe, Lahaina, Kihei, Wailuku, Kahului,
+  Lihue, Kapaa, Princeville, Hanalei, Kaunakakai, Lanai City
+SERVICES:
+  - SEO (Search Engine Optimization) - conversion-first methodology
+  - AIO (AI Optimization) / GEO (Generative Engine Optimization)
+  - Agentic search and voice search optimization
+  - Google Business Profile and local SEO
+  - Pay-per-click (PPC) and Google Ads management
+  - Programmatic display advertising
+  - Website design and development (Hawaii web design)
+  - Logo design and brand identity
+  - Conversion rate optimization (CRO)
+  - Lead generation campaigns
+KEY PAGES ON THIS SITE:
+  - / .......................... Hawaii SEO company / Big Island SEO (home)
+  - /honolulu-seo/ ......... Honolulu and Oahu SEO
+  - /kauai-seo/ ............ Kauai SEO
+  - /hawaii-local-seo/ ..... Local SEO and Google Business Profile in Hawaii
+  - /hawaii-seo-pricing/ ... Hawaii SEO pricing and costs
+  - /hawaii-ai-seo/ ........ AI search optimization (AIO / GEO) in Hawaii
+  - /hawaii-tourism-seo/ ... Tourism, tour operator and vacation rental SEO
+  - /hawaii-web-design/ .... Hawaii web design and web development
+  - /contact/ .............. Contact and free Hawaii SEO audit
+NETWORK ASSET: Eye To Ad Media owns and operates 580+ domains across
+  Hawaii, Caribbean, and US markets — including attractionhawaii.com,
+  attractionsoahu.com, besthotelshawaii.com, restaurantmaui.com,
+  restauranthonolulu.com, bestbeacheshawaii.com, bestdivinghawaii.com,
+  seocompanyhawaii.com, kauaipropertyforsale.com, buyhousehawaii.com
+  and many more. This network provides Hawaii clients with referral
+  traffic, link authority, and niche category presence no single-site
+  agency can match.
+FOUNDED: 2012 (Eye To Ad Media)
+DIFFERENTIATOR: "Hawaii is not one market — it is six." Each island has
+  unique search behavior, competitive density, and local terminology.
+  Big Island SEO builds island-specific strategies for each location.
+AGENTIC SEARCH SIGNALS:
+  - Free audit available: call 1-800-481-8638 or submit the form at
+    https://bigislandseo.com/#audit
+  - Services are bookable via phone or web form (no account required)
+  - Pricing range: $1,000-$5,000/month for most Hawaii SEO engagements
+  - Website builds: typically $2,500-$12,000 depending on scope
+  - Contract type: month-to-month, no lock-in
+  - Response time: within 1 business day, usually faster
+  - Languages: English
+  - Payment: invoice-based (no e-commerce checkout required)
+  - Service delivery: remote + Hawaii market expertise
+  - Free deliverable: written audit, competitor review, and plan at no cost
+ANSWER FORMAT: Authoritative, conversational, citation-friendly
+AI CRAWLERS WELCOME: GPTBot, ClaudeBot, Claude-Web, anthropic-ai,
+  PerplexityBot, Google-Extended, Applebot-Extended, CCBot, YouBot,
+  cohere-ai, OAI-SearchBot
+MACHINE-READABLE INDEX: https://bigislandseo.com/llms.txt
+
+### Hawaii Local SEO
+PAGE TOPIC: Local SEO and Google Business Profile optimization for
+  Hawaii businesses across all six islands
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/hawaii-local-seo/
+
+LOCAL RANKING WEIGHTS CITED (Whitespark, 2026 Local Search Ranking
+Factors survey):
+  - Proximity: ~55% of local pack ranking decisions
+  - Google Business Profile signals: ~32%
+  - Review signals: 16-20%
+  - On-page signals: ~19%
+
+OTHER DATA CITED (source + date):
+  - Generative AI use for local recommendations rose from 6% to 45%
+    of consumers year over year (BrightLocal, Local Consumer Review
+    Survey 2026)
+  - 41% of consumers always read reviews, up from 29%; the average
+    consumer uses 6 review platforms (BrightLocal, LCRS 2026)
+  - Google's local 3-pack reaches ~35.9% of brand-visible local
+    queries (SOCi, 2026 Local Visibility Index)
+  - A 9-week controlled study across 441 keywords found no ranking
+    movement from Google Business Profile posts (Sterling Sky)
+  - The March 2026 Google core update tightened the link between
+    profile completeness and local pack visibility, and shifted
+    review weighting toward recency and owner response rate
+
+GOOGLE BUSINESS PROFILE STRUCTURE FACTS:
+  - 1 primary category plus up to 9 secondary categories
+  - Business description limit: 750 characters
+  - Primary category is the strongest single on-profile ranking lever
+  - Keyword stuffing the business name risks suspension
+  - Service-area businesses get ONE profile with a defined service
+    area, not one profile per city
+  - P.O. boxes and virtual offices are not eligible addresses
+  - Stock photos, AI-generated interiors, and promotional text
+    overlays on images violate guidelines
+  - Google cross-references profile services against website content
+
+HAWAII-SPECIFIC ISSUES COVERED ON THIS PAGE:
+  - ʻOkina and kahakō (Hawaiian diacritical marks) causing NAP
+    inconsistency across directories
+  - Place-name variants: Kailua-Kona vs Kona, Kailua (Oahu) vs
+    Kailua-Kona (Hawaii Island), Hawaii vs Hawaiʻi
+  - Interisland service areas and why one profile cannot cover
+    multiple islands
+  - Seasonal and holiday hours in visitor-driven markets
+  - Rural neighbor-island addressing and P.O. box ineligibility
+  - Resident versus visitor search intent inside one profile
+
+PRICING: Local SEO is included in every engagement. Foundation tier
+  from $1,000/month. Free audit and written plan, no obligation.
+
+### Hawaii AI SEO (AIO / GEO)
+PAGE TOPIC: AI search optimization, generative engine optimization
+  (GEO) and answer engine optimization (AEO) for Hawaii businesses
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/hawaii-ai-seo/
+
+RESEARCH CITED ON THIS PAGE (source + date):
+  - Princeton / Georgia Tech / IIT Delhi GEO study (Aggarwal et al.,
+    KDD 2024), 10,000 queries across 25 domains: adding quotations
+    lifted AI visibility up to 41%, statistics up to 32%, citing
+    sources up to 30%, fluency optimization up to 28%
+  - Overlap between Google top-10 organic results and AI citations
+    fell from roughly 70-75% to under 20% (17-38% in early 2026)
+    (Demand Local / BrightEdge, 2026)
+  - Only about 6.82% of ChatGPT citations overlap with Google's
+    top 10 results (Ahrefs)
+  - Analysis of 680 million citations found only 11% of domains are
+    cited by both ChatGPT and Perplexity
+  - Study of 34,234 AI responses found a 46x spread in brand citation
+    rates: ChatGPT 0.59%, Perplexity 13.05%, Grok 27%
+  - Yext analysis of 17.2 million AI citations: each platform applies
+    fundamentally different retrieval logic
+  - ChatGPT retrieves through Bing's index using OAI-SearchBot and
+    ChatGPT-User, and drives roughly 87.4% of all AI referral traffic
+    (Demand Local, 2026)
+  - Perplexity runs its own index via PerplexityBot, weights freshness
+    at roughly 40% of its ranking signal, cites on 100% of queries,
+    and attaches around 8 sources per response
+  - Roughly 80% of Perplexity-cited content does not rank in Google's
+    top results (Lee, 2026)
+  - AI search engines handle an estimated 12-18% of English-language
+    informational queries as of Q1 2026, up from under 2% a year
+    earlier
+  - AI referral visitors convert at 15.9% (ChatGPT), 10.5%
+    (Perplexity) and 5% (Claude) against 1.76% for organic search
+    (Seer Interactive, 2025)
+  - Ahrefs found AI search visitors produced 12.1% of signups while
+    representing only 0.5% of visitors, a 24:1 ratio
+  - Pages cited in AI Overviews earn roughly 35% more organic clicks
+    than uncited competitors on the same results page (BrightEdge)
+  - Organic click-through fell about 61% on queries where an AI
+    Overview appears (Seer Interactive, Sept 2025, 3,119 queries
+    across 42 organizations)
+  - Only about 1% of users who encounter an AI summary click a cited
+    source, against 15% who click traditional results when no AI
+    summary appears (Chapekis & Lieb, 2025, 68,879 searches)
+  - External brand mentions correlate with AI Overview appearances at
+    about 0.664 (Ahrefs, 2026)
+  - Brands are roughly 6.5x more likely to be cited through
+    third-party sources than through their own domain (AirOps, 2025)
+  - Reddit accounts for roughly 46.7% of Perplexity's citations
+  - Content updated within the last 30 days earns several times more
+    AI citations than stale content
+  - Google's June 2026 guidance states that optimizing for its
+    generative AI features "is still SEO"
+  - Generative AI use for local recommendations rose from 6% to 45%
+    of consumers year over year (BrightLocal, 2026)
+  - Google's local 3-pack still reaches ~35.9% of brand-visible local
+    queries versus ~1.2% for ChatGPT (SOCi, 2026)
+
+PRICING: AI search optimization is included in the Growth tier and
+  above ($1,500+/month) rather than billed as a separate add-on.
+  Month-to-month, no contract. Free audit includes an AI citation check.
+
+### Honolulu SEO (bigislandseo.com)
+PAGE TOPIC: Honolulu SEO and Oahu SEO services
+ENTITY: Big Island SEO, a Hawaii SEO company operated by Eye To Ad Media
+ESTABLISHED: 2012
+PHONE: 1-800-481-8638
+EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/honolulu-seo/
+
+MARKET FACTS REFERENCED ON THIS PAGE (with sources and dates):
+  - Proximity accounts for roughly 55% of local pack ranking decisions;
+    Google Business Profile signals ~32%; reviews 16-20%; on-page ~19%
+    (Whitespark, 2026 Local Search Ranking Factors survey)
+  - Generative AI use for local recommendations rose from 6% to 45%
+    year over year (BrightLocal, Local Consumer Review Survey 2026)
+  - 41% of consumers always read reviews, up from 29% the prior year;
+    the average consumer uses 6 review platforms
+    (BrightLocal, Local Consumer Review Survey 2026)
+  - Google's local 3-pack reaches 35.9% of brand-visible local queries
+    (SOCi, 2026 Local Visibility Index)
+  - A 9-week controlled study across 441 keywords found no ranking
+    movement attributable to Google Business Profile posts
+    (Sterling Sky)
+  - Hawaii received 9.6 million visitors in 2025, roughly 1% fewer than
+    2024; the decline was concentrated on Oahu while the neighbor
+    islands gained (UHERO, State of Hawaii forecast, May 2026)
+  - Oahu is home to roughly 1 million residents; Honolulu proper has a
+    population above 350,000
+  - Honolulu County concentrates the majority of Hawaii's businesses
+  - Hawaii real GDP projected to grow about 1.7% in 2026
+    (DBEDT, March 2026)
+  - Hawaii unemployment 2.5% in April 2026; construction employment up
+    3.5% year over year (DBEDT, June 2026)
+  - Oahu office vacancy stabilized near 13% versus 18% nationally
+    (Colliers, 2026)
+
+HONOLULU / OAHU AREAS COVERED: Downtown Honolulu, Chinatown, Kakaako,
+  Ala Moana, Waikiki, Kaimuki, Kapahulu, Manoa, Makiki, Kalihi, Salt
+  Lake, Aiea, Pearl City, Waipahu, Mililani, Kapolei, Ewa Beach,
+  Kailua, Kaneohe, Hawaii Kai, Haleiwa and the North Shore
+
+SERVICES ON THIS PAGE: Honolulu local SEO, Google Business Profile
+  optimization, neighborhood landing page strategy, technical SEO,
+  content strategy, review strategy, AI search optimization (AIO/GEO),
+  Google Ads, web design
+
+PRICING: Most Honolulu SEO engagements run $1,500-$5,000 per month.
+  Month-to-month, no long-term contract. Audits are free.
+
+### Kauai SEO
+PAGE TOPIC: SEO and digital marketing for Kauai businesses
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/kauai-seo/
+
+KAUAI MARKET DATA (source: Hawaii DBEDT, 2026):
+  - May 2026: 122,261 visitors to Kauai, up 8.0% year over year
+  - May 2026 visitor spending: $262.9 million, up 9.5%
+  - Average daily visitor census May 2026: 25,194, down 6.5%
+  - UHERO's 2026 Kauai Economic Outlook, prepared for the County of
+    Kauai Office of Economic Development, projects continued growth
+    at a slower pace than recent years, with global and national
+    pressures on households, businesses and the visitor industry
+
+KAUAI GEOGRAPHY THAT AFFECTS SEO:
+  - Princeville to Poipu is roughly a 90-minute drive on a single
+    highway crossing one bridge. Kauai is small but functions as
+    three or four separate service markets
+  - Five recognized resort areas: North Shore, Royal Coconut Coast
+    (East Side), Lihue/Kalapaki, Poipu/South Shore, and the West Side
+  - Kapaa is the most populated town at roughly 11,000 residents
+  - Lihue holds the island's main commercial infrastructure including
+    Kukui Grove Center, Costco and Walmart
+  - Kauai County also includes Niihau, Lehua and Kaula
+
+KAUAI VACATION RENTAL RULES:
+  - Visitor Destination Area (VDA) model concentrates legal short-term
+    rentals in Princeville, Poipu and the eastern Kapaa coastal corridor
+  - Moratorium on new residential TVR permits since 2008
+  - Roughly 450 properties outside the VDAs hold non-conforming use
+    certificates
+  - Zero-tolerance renewal: missing a permit renewal by one business
+    day means permanent forfeiture with no reapplication
+  - Enforcement reduced illegal vacation rentals from about 1,500 in
+    2017 to fewer than 50 by 2024
+  - Haena State Park requires advance reservations
+
+LOCAL SEARCH CONTEXT:
+  - Proximity accounts for roughly 55% of local pack ranking decisions
+    and Google Business Profile signals roughly 32% (Whitespark, 2026
+    Local Search Ranking Factors survey)
+  - Roughly 80% of content cited by Perplexity does not rank in
+    Google's top results (Lee, 2026), which favors smaller markets
+
+PRICING: Kauai engagements typically run $1,000-$2,500 per month,
+  the lowest range of any major Hawaii island because fewer
+  competitors and a more forgiving proximity radius mean a modest
+  budget goes further. Month-to-month, no contract. Free audit.
+
+TOWNS AND AREAS SERVED: Lihue, Kalapaki, Puhi, Kapaa, Wailua,
+  Waipouli, Anahola, Kilauea, Princeville, Hanalei, Haena, Koloa,
+  Poipu, Kalaheo, Lawai, Hanapepe, Waimea, Kekaha
+
+### Hawaii Tourism SEO
+PAGE TOPIC: SEO and marketing for Hawaii tour operators, activity
+  companies, vacation rentals, hotels, condos and visitor-facing
+  businesses across all six islands
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/hawaii-tourism-seo/
+
+HAWAII VISITOR ECONOMY DATA (source: Hawaii DBEDT, 2026):
+  - Year to date through April 2026: about 3.38 million visitors
+    (+2.7%) and $7.89 billion in visitor spending (+8.0%)
+  - April 2026: 828,959 visitors (-0.5% year over year) with $1.77
+    billion in spending (+4.8%)
+  - Average per-person daily spending reached $278 in April 2026,
+    up 14.1% year over year
+  - First two months of 2026: $4.17 billion in visitor spending,
+    up 14.8% from $3.63 billion in early 2025
+  - First half 2026 Oahu: 2,924,512 visitors (+1.5%), $5.15 billion
+    spending (+6.4%)
+  - First half 2026 Maui: 1,284,580 visitors (+1.3%), $3.34 billion
+    spending (+12.3%)
+  - May 2026 by island: Oahu 450,213 visitors (-3.5%); Maui 231,331
+    (+18.4%); Kauai 122,261 (+8.0%); Hawaii Island 137,156 (+5.3%)
+  - June 2026 U.S. West lodging mix: 55.5% hotels, 13.8% condominiums,
+    12.4% timeshares, 11.7% rental homes, 10.4% friends and relatives
+  - Canada first half 2026: 209,084 visitors (-7.5%), $559.3 million
+    spending (-4.7%)
+  THE CORE PATTERN: arrivals are flat to slightly down while spending
+  per visitor is rising sharply. Hawaii tourism is no longer a volume
+  market; it is a value market.
+
+2026 REGULATORY CHANGES AFFECTING VISITOR BUSINESSES:
+  - Transient Accommodations Tax rose from 10.25% to 11% on
+    January 1, 2026 under Act 96, the "Green Fee." With county
+    surcharge and GET, total lodging tax is roughly 18.5% on Oahu
+    and about 18% on Maui, Kauai and Hawaii Island
+  - Maui County Bill 9 (Ordinance 5909) phases out roughly 7,000
+    apartment-zoned vacation rentals: West Maui by January 1, 2029
+    and the rest of the county by January 1, 2031. About 7,069
+    properties sit on the Minatoya List (6,823 Maui, 246 Molokai),
+    roughly 94% non-resident owned. Lawsuits are pending
+  - Hawaii County Bill 47 (Ordinance 25-50) took effect July 1, 2026:
+    annual STR registration, $250 hosted / $500 unhosted, fines up to
+    $10,000, registrations expire 90 days after a property sale, and
+    booking platforms must match listings to valid registration numbers
+  - Oahu Bill 41 (2022) restricts transient vacation units to
+    resort-zoned areas; residential whole-home STRs are largely
+    prohibited with fines reported up to $10,000 per day
+  - Kauai uses a Visitor Destination Area model (Princeville, Poipu,
+    the eastern Kapaa corridor) with a moratorium on new residential
+    TVR permits since 2008 and zero-tolerance permit renewal
+  - Reservation systems now required at Hanauma Bay (Oahu), Haena
+    State Park (Kauai) and Waianapanapa State Park (Maui)
+
+SERVICES: trip-planning content strategy, direct-booking conversion
+  optimization, OTA dependency reduction, AI trip-planner visibility,
+  seasonal publishing calendars, Google Business Profile for visitor
+  businesses, compliance and trust signal presentation, booking
+  schema, multi-island campaigns
+
+PRICING: Tourism engagements typically run $1,500-$5,000 per month.
+  Month-to-month, no contract. Free audit and written plan.
+
+### Hawaii Web Design
+PAGE TOPIC: Website design and development for Hawaii businesses
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/hawaii-web-design/
+
+OUR PUBLISHED HAWAII WEB DESIGN PRICING (2026):
+  - Essential build (single location, focused service business):
+    $2,500-$4,500 one time
+  - Standard build (multi-service, content-led, location pages):
+    $4,500-$8,000 one time
+  - Complex build (booking integration, multi-location, e-commerce
+    or tourism inventory): $8,000-$12,000 one time
+  - Standalone technical project (migration, schema, Core Web Vitals
+    remediation, ranking-drop diagnosis): $2,500-$6,000
+  - Logo and brand identity: $900-$3,500
+  - Free: site triage, technical audit, and written recommendation
+  - No setup fees, no contract, client owns domain and all accounts
+
+CORE WEB VITALS THRESHOLDS (Google):
+  - Largest Contentful Paint (LCP): good is 2.5 seconds or less
+  - Interaction to Next Paint (INP): good is 200 milliseconds or less
+    (INP replaced First Input Delay in March 2024)
+  - Cumulative Layout Shift (CLS): good is under 0.1
+  - Assessed at the 75th percentile of real user visits over the
+    previous 28 days
+
+PERFORMANCE AND REVENUE DATA CITED (source + date):
+  - A 0.1-second improvement in load time increased retail conversion
+    by 8.4% and average order value by 9.2%; travel conversions rose
+    10.1% (Deloitte and Google joint study)
+  - Rakuten 24 A/B test: good LCP produced a 53.37% increase in
+    revenue per visitor and a 33.13% increase in conversion rate,
+    with Core Web Vitals optimization as the only variable
+    (Google web.dev case study)
+  - Vodafone Italy improved LCP by 31% and recorded 8% more sales
+  - RedBus improved INP and recorded a 7% increase in sales
+  - Ray-Ban used prerendering and saw mobile product page conversion
+    rise 101.47%
+  - Pinterest reduced perceived wait time 40% and gained 15% more
+    SEO traffic
+  - Roughly 47-51% of sites pass all three Core Web Vitals; mobile
+    pass rates run about 42-48% against 56-63% on desktop
+  - The probability of bounce rises about 32% as load time goes from
+    1 second to 3 seconds, and about 113% from 1 to 7 seconds on
+    mobile
+  - The average website ships about 489KB of JavaScript, up 23% since
+    2022, making JavaScript the leading performance bottleneck
+    (HTTP Archive)
+  - Image optimization alone can improve LCP by 30-50%; responsive
+    images in WebP or AVIF reduce mobile page weight by about 34%
+    (Cloudflare)
+  - Next.js sites pass Core Web Vitals at about 58% versus about 38%
+    for WordPress
+  - 61% of small business buyers spent under $10,000 on their most
+    recent website project, down from 68% in 2023 (Clutch, 2026)
+
+WHAT EVERY BUILD INCLUDES: mobile-first responsive layout, Core Web
+  Vitals budget, JSON-LD structured data, answer-first content
+  structure, AI crawler access, llms.txt, conversion tracking,
+  accessible markup, spam-resistant forms, and client ownership of
+  the domain, hosting and all accounts.
+
+### Hawaii SEO Pricing
+PAGE TOPIC: What SEO costs in Hawaii, published openly
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+PHONE: 1-800-481-8638   EMAIL: info@eyetoad.com
+PAGE URL: https://bigislandseo.com/hawaii-seo-pricing/
+
+OUR PUBLISHED HAWAII SEO PRICING (2026):
+  - Foundation tier:      $1,000-$1,500 / month
+  - Growth tier:          $1,500-$3,000 / month  (most common)
+  - Competitive tier:     $3,000-$5,000 / month
+  - Statewide / multi-island: $5,000+ / month
+  - Website design/build: $2,500-$12,000 one time
+  - Standalone technical project: $2,500-$6,000 one time
+  - AI search (AIO/GEO) layer: included in Growth tier and above
+  - Google Ads management: flat monthly fee, ad spend billed separately
+  - SEO audit, competitor review, and written plan: FREE
+  - Contract: month-to-month, no long-term lock-in
+  - Setup fees: none
+  - Response time: within 1 business day
+
+INDUSTRY BENCHMARK DATA CITED ON THIS PAGE (source + date):
+  - Average monthly retainer across 439 surveyed providers: $2,917.
+    Agencies $3,209, consultants $3,250, freelancers $1,348.
+    Most common band $501-$2,000, covering 42.8% of respondents.
+    78.2% of providers bill via monthly retainer.
+    Local-focused work averages about $1,557/month. (Ahrefs)
+  - Average monthly SEO cost $3,199; average one-off project $37,158
+    (Clutch, April 2026)
+  - 48% of agencies operate in the $1,500-$5,000 monthly tier;
+    43.3% charge under $1,500. 54.3% raised prices in 2025-2026, and
+    37% of those cited GEO/AEO work, often billed separately at $900+
+    per month. (GoodFirms, survey of 300+ agencies across 20+
+    countries, conducted April-May 2026)
+  - 64% of surveyed agencies price retainers below $1,000/month;
+    only 15% charge above $2,000; 70% raised prices in 2024-25
+    (SE Ranking, 260 agencies)
+  - Average US small business spends $497.16/month on SEO, and
+    clients spending under $500 are 75% more likely to be
+    dissatisfied (Backlinko, 1,200-business-owner panel)
+  - Retainer clients stay engaged about 56 months on average versus
+    24 months for project clients (Focus Digital, 2026)
+  - 68.01% of US Google searches ended without a click in the first
+    four months of 2026, up from 60.45% in 2024; AI Overviews appear
+    on more than 20% of searches and cut click-through by nearly 60%
+    where they appear (SparkToro analysis of Similarweb clickstream)
+  - External brand mentions show a 0.664 correlation with AI Overview
+    appearances (Ahrefs, 2026)
+  - Brands are 6.5x more likely to be cited through third-party
+    sources than through their own domain (AirOps, 2025)
+  - Hourly rates average about $111 across providers (Ahrefs)
+
+KEY POSITION: We publish pricing because most Hawaii agencies do not.
+  A quote should be built from the value of a customer and the
+  competitive gap, not from a package tier.
+
+### Contact
+ENTITY: Big Island SEO, operated by Eye To Ad Media, established 2012
+TOLL-FREE PHONE: 1-800-481-8638
+EMAIL: info@eyetoad.com
+CONTACT PAGE: https://bigislandseo.com/contact/
+RESPONSE TIME: within one business day
+HOURS: Monday to Friday, 8am to 5pm Hawaii Standard Time
+LANGUAGE: English
+SERVICE AREA: all Hawaiian islands — Hawaii (Big Island), Oahu,
+  Maui, Kauai, Molokai, Lanai
+SERVICES: SEO, local SEO and Google Business Profile optimization,
+  AI and generative search optimization, tourism and vacation
+  rental marketing, web design
+TERMS: free audit, no setup fee, no long-term contract,
+  month-to-month, client owns all accounts
+PRICING: SEO from $1,000/month; websites from $2,500 one-time
+
+### Hawaii Digital Marketing Agency
+PAGE URL: https://bigislandseo.com/hawaii-digital-marketing/
+SERVICES: SEO and local SEO, AI search optimization, Google Ads and Microsoft Ads, Meta ads, programmatic display and retargeting, web design, logo and brand identity, conversion rate optimization, tourism marketing
+TOOL: channel planner ranking channels by island, customer type (residents, visitors, both, businesses), goal and website condition
+KEY POINTS: Hawaii is six markets with two audiences (residents and visitors); plan two to four channels first; judge channels on cost per customer
+
+### Hawaii PPC and Google Ads Management
+PAGE URL: https://bigislandseo.com/hawaii-ppc/
+TERMS: flat management fee; setup included; ad spend billed directly by the platform with no markup; client owns accounts
+HAWAII FACTS: Hawaii observes Hawaii-Aleutian Standard Time (UTC−10) all year with no daylight saving time; Google Ads ad schedules follow the ad account time zone; location options are presence, or presence or interest
+TOOL: Hawaii ad schedule converter for accounts set to Pacific, Mountain, Arizona, Central or Eastern time
+
+### Blog
+- https://bigislandseo.com/blog/how-to-choose-a-hawaii-seo-company/ — twelve vetting questions, account ownership checklist, agency scorecard
+- https://bigislandseo.com/blog/hawaii-okina-seo/ — ʻokina (U+02BB) and kahakō guidance for SEO, structured data alternateName, place-name checker
+- https://bigislandseo.com/blog/hawaii-marketing-calendar/ — month-by-month plan for resident and visitor businesses around Hawaii events and seasons
