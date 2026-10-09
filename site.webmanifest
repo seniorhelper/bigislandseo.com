@@ -2,13 +2,11 @@
   "name": "Big Island SEO",
   "short_name": "Big Island SEO",
   "start_url": "/",
-  "display": "browser",
-  "background_color": "#fffaf0",
+  "display": "standalone",
+  "background_color": "#001b29",
   "theme_color": "#001b29",
   "icons": [
-    {
-      "src": "/images/Big-island-seo-Favicon.png",
-      "type": "image/png"
-    }
+    {"src": "/images/favicon-180.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "/images/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ]
 }

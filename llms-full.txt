@@ -1,11 +1,12 @@
 # Big Island SEO — full reference for AI systems
 
-> Extended companion to https://bigislandseo.com/llms.txt. Human-written, human-reviewed. Last updated 2026-09-20.
+> Extended companion to https://bigislandseo.com/llms.txt. Human-written, human-reviewed. Last updated 2026-10-09.
 
 ## Entity
 
 - Name: Big Island SEO (also: Hawaii SEO, Eye To Ad Media Hawaii)
-- Operated by: Eye To Ad Media (https://www.eyetoad.com), established 2012
+- Operated by: Eye To Ad Media (https://eyetoad.com), established 2012; parent organization in structured data
+- Physical address: none published; clients are served remotely from Denver and Hawaii Island (areaServed in schema: Hawaii Island, Honolulu/Oahu, Maui, Kauai, Molokai, Lanai)
 - Founder and CEO: Zachary Tye Wennstedt (https://www.zacharytyewennstedt.com)
 - Website: https://bigislandseo.com/
 - Phone (toll-free): 1-800-481-8638
@@ -520,7 +521,28 @@ TERMS: flat management fee; setup included; ad spend billed directly by the plat
 HAWAII FACTS: Hawaii observes Hawaii-Aleutian Standard Time (UTC−10) all year with no daylight saving time; Google Ads ad schedules follow the ad account time zone; location options are presence, or presence or interest
 TOOL: Hawaii ad schedule converter for accounts set to Pacific, Mountain, Arizona, Central or Eastern time
 
+### Maui SEO
+PAGE URL: https://bigislandseo.com/maui-seo/
+KEY POINTS: Maui searches in two directions: 165,000 residents searching like a small town and roughly two million visitors a year searching from the mainland before arrival; Google treats the island as four clusters (West: Lahaina, Kaanapali, Napili, Kapalua; South: Kihei, Wailea, Makena; Central: Kahului, Wailuku, Paia; Upcountry: Makawao, Pukalani, Kula) plus Hana; one page per cluster served, no single "Maui" page; the August 2023 Lahaina fire reset many West Maui profiles and left stale addresses across the web; resident categories behave like Kauai (low competition), visitor categories like Honolulu (content depth decides)
+PROGRAM: Google Business Profile by cluster, West/South/Central/Upcountry pages, visitor-intent content, citation and ʻokina cleanup, review systems by audience, reporting by cluster; first ninety days: audit and geo-grid, profile and site foundations, market pages and reviews, then compounding
+FAQ: no Maui office (delivered remotely, stated plainly); one profile per real location; Molokai and Lanai served from the Maui program; resident categories often move within eight weeks, visitor categories plan on six months
+
+### Vacation Rental SEO Hawaii
+PAGE URL: https://bigislandseo.com/vacation-rental-seo-hawaii/
+KEY POINTS: direct bookings alongside Airbnb and Vrbo (14–20% commission) by ranking for complex-name and long-tail stay searches that platform listings do not rank for on Google; audiences are repeat visitors, long-stay families and people shortlisting areas with Google or an AI assistant; single-unit owners can own their complex name plus qualifier searches, not "Maui vacation rentals"
+2026 RULES TABLE (not legal advice): Hawaii County STVR registration number required in ads; Maui County permitted zones and Minatoya-list complexes with phase-out ordinance and litigation ongoing; Honolulu Ordinance 22-7 limits under-90-day rentals to resort zones and registered nonconforming units; Kauai confines TVRs to Visitor Destination Areas and TVNCU units; state TAT and GET registration numbers required on all advertising
+PROGRAM: property page per unit with permit numbers, area pages, booking engine or enquiry path with calendar sync, LodgingBusiness/Accommodation/Offer schema, review aggregation, direct-booking incentive, seasonal content
+FAQ: Google Business Profile generally not available for individual units without staffed premises; typical outcome a handful of direct bookings per unit per year, 10–30% of bookings direct for managers over two seasons
+
+### Google Business Profile Audit (free tool)
+PAGE URL: https://bigislandseo.com/google-business-profile-audit/
+TOOL: 24-point weighted checklist in six groups (identity, location and hours, content, reviews, website and consistency, Hawaii specifics) with a live score out of 100 and a fix-first list; runs in the browser, nothing stored
+WEIGHTING: identity and location items weigh most because they decide eligibility (primary category 8 points, consistent name-address-phone 6, eligible address 6, one profile per real location 5); reviews and consistency decide prominence; content items are smaller levers
+HAWAII-SPECIFIC CATCHES: P.O. boxes ineligible (set up as service-area business), duplicate per-town profiles get suspended, inconsistent Hawaiian spelling fragments citations, state holiday hours (Prince Kuhio Day, Kamehameha Day, Statehood Day) left unset
+FULL AUDIT: geo-grid by town, comparison with the three businesses holding the pack, citation scan, review of the linked website page; free, one business day
+
 ### Blog
 - https://bigislandseo.com/blog/how-to-choose-a-hawaii-seo-company/ — twelve vetting questions, account ownership checklist, agency scorecard
 - https://bigislandseo.com/blog/hawaii-okina-seo/ — ʻokina (U+02BB) and kahakō guidance for SEO, structured data alternateName, place-name checker
 - https://bigislandseo.com/blog/hawaii-marketing-calendar/ — month-by-month plan for resident and visitor businesses around Hawaii events and seasons
+- https://bigislandseo.com/blog/hawaii-service-area-pages/ — (2026-10-09) how to build island and town pages without doorway pages: what to include, what to skip, how to link them; the island pages on this site follow it
